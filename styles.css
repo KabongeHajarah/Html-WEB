@@ -1,0 +1,386 @@
+*{
+margin: 0%;
+
+
+}
+ html{
+  font-family: 'Inter', sans-serif;
+  padding: 0%;
+  margin: 0%;
+
+ }
+
+
+
+
+header{
+    display: flex;
+    padding: 30px 4%;
+    align-items: center;
+    justify-content: space-between;
+    color: #222224;
+    
+    font-size: 16px;
+    background-color: white;
+    
+    }
+  
+   
+    
+    .navs,li{
+    list-style: none;
+    display: inline-block;
+    padding: 0px  20px;
+    color: #222224;
+    font-weight: bold;
+    
+    }
+    .logo{
+      cursor: pointer; 
+      font-size: 70px;
+      color: rgb(248, 189, 25);
+      font-family: 'Island Moments', cursive; 
+ 
+    }
+
+
+.major-div{
+display: flex;
+flex-direction: row;
+background-color: rgb(245, 245, 237);
+
+}
+.chickenpic{
+  width: 100%;
+}
+
+.title{
+  width: 50%;
+}
+.yellow{
+  color: rgb(248, 189, 25);
+}
+
+.Order-button{
+background-color: rgb(248, 189, 25);;
+border: none;
+height: 40px;
+width: 130px;
+color: #f8f8f8;
+border-radius: 6px;
+}
+
+.popular,.Online{
+text-align: center;
+
+}
+.popular{
+  font: weight 5px;
+  font-size: 40px;
+}
+
+
+.second-div{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+}
+.DinkoFood {
+border: solid 10px transparent;
+border-radius: 50%;
+width: 200px;
+height: 200px;
+align-items: center;
+}
+.rating{
+width: 100px;
+align-items: center;
+height: 90px;
+text-align: center;
+
+
+
+}
+
+
+
+.dish{
+  text-align: center;
+}
+.Add-2Chart{
+  background-color: rgb(248, 189, 25);;
+  border: none;
+  height: 40px;
+  width: 190px;
+  color: #f8f8f8;
+  border-radius: 20px;
+
+}
+.third-div{
+background-color: rgb(243, 243, 243);
+
+display: flex;
+flex-direction: row;
+
+}
+.discount{
+  background-color: rgb(248, 189, 25);
+  border: none;
+  height: 30px;
+ 
+  color: #f8f8f8;
+  border-radius: 8px;
+
+}
+.Offer{
+  font-size: 50px;
+  width: 300px;
+}
+.tuna2{
+ width: 500px;
+ height: 400px;
+ 
+ 
+}
+.Online{
+  font-family: 'Pacifico', cursive;
+  font-size: 25px;
+
+}
+.menu{
+  background-color: rgb(248, 189, 25);
+  border: none;
+  height: 56px;
+  width: 170px;
+  color: #f8f8f8;
+  border-radius: 15px;
+
+}
+.sticker{
+  width: 2%;
+}
+.quality-food{
+  text-align: center;
+
+ 
+}
+.Best-offers{
+  text-align: center;
+  font-size: 40px;
+
+}
+.main,.mains{
+display: flex;
+flex-direction: row;
+
+}
+.junk-food{
+  width: 200px;
+  align-items: center;
+  height: 180px;
+}
+.major-forJunkFoods{
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+
+ 
+  
+
+}
+.quotes{
+width: 100px;
+justify-content: center;
+
+}
+.mains{
+ 
+
+  padding: 10px;
+  height: 300px;
+  
+}
+
+.main{
+
+padding: 10px;
+}
+.app{
+display: flex;
+flex-direction: row;
+
+
+}
+.phone{
+  width: 70%;
+  align-content: center;
+}
+
+.Subcsribe{
+  margin-right: 20%;
+  margin-top: 10%;
+   
+}
+.same-color{
+color:rgb(248, 189, 25) ;
+font-weight: bold;
+
+}
+.bold{
+  font-size: 45px;
+}
+.grey{
+  color: rgb(129, 126, 126);
+  font-weight: bold;
+}
+input{
+  height: 40px;
+  width: 250px;
+  
+}
+.email{
+  background-color: rgb(248, 189, 25);;
+  border: none;
+  height: 56px;
+  width: 170px;
+  color: #f8f8f8;
+  border-radius: 10px;
+}
+.Icon{
+  width: 15%;
+  height: 10%;
+
+}
+.icon-pics{
+  display: flex;
+  flex-direction: row;
+ justify-content: space-between;
+ align-content: center;
+
+}
+.clients{
+font-size: 40px;
+text-align: center;
+
+
+}
+.language{
+  text-align: center;
+
+}
+.workers{
+ align-items: center; 
+ width: 100%;
+justify-content: center;
+
+}
+
+.news{
+  justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+
+}
+.people{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+ 
+}
+
+.work{
+
+  border: solid 10px transparent;
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.footermain{
+    background-color: #222224;
+    color:  #f8f8f8;;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    
+    
+    
+    }
+    .only{
+     font-weight: lighter ;
+     color:  #f8f8f8;
+     text-align: center;
+    }
+    .arrangeThis{
+    padding: 2%;
+    color:  #f8f8f8;
+    background-color: #222224;
+    
+    }
+  
+    .lists{
+      color: #f8f8f8;
+      font-weight: lighter;
+    }
+    h3{
+      color: #f8f8f8;
+      text-align: center;
+    }
+    .aligntext{
+      text-align: center;
+      justify-items: center;
+      justify-content: center;
+    }
+    .left{
+      color: #f8f8f8;
+      font-weight: lighter;
+      text-align: left;
+    }
+    .center{
+      color: #f8f8f8;
+      font-weight: lighter;
+      text-align: center;
+    }
+    .right{
+      
+        color: #f8f8f8;
+        font-weight: lighter;
+        text-align: right;
+      
+    }
+    .trial{
+    display: flex;
+    flex-direction: row;
+    padding: 0px  20px;
+    justify-content: space-between;
+    font-size: smaller;
+    }
+    
+    @media   (min-width: 992px){
+    
+    }
+    @media   (min-width: 700px){
+  
+
+  
+    }
+    @media   (min-width: 1395px){
+  
+
+    
+    }
